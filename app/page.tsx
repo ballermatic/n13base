@@ -20,21 +20,6 @@ export default function HomePage() {
       </section>
       <hr />
       <section>
-        <header>
-          <nav>
-            <ul>
-              <li>
-                <a href='#'>Home</a>
-              </li>
-              <li>
-                <a href='#'>About</a>
-              </li>
-              <li>
-                <a href='#'>Contact</a>
-              </li>
-            </ul>
-          </nav>
-        </header>
         <article>
           <p>
             This paragraph is nested inside an article. It contains many different, sometimes useful,

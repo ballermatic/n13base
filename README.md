@@ -6,7 +6,7 @@
 - [x] [next/layout](https://nextjs.org/docs/basic-features/layouts) _- beta_
 - [x] next/font _- beta_
 - [x] next/image
-- [ ] [next/script](https://beta.nextjs.org/docs/upgrade-guide#script-component)
+- [ ] [next/script](https://beta.nextjs.org/docs/upgrade-guide#script-component) with [Web Worker for 3rd party when available](https://beta.nextjs.org/docs/optimizing/scripts#offloading-scripts-to-a-web-worker-experimental)
 
 ## Styling
 
@@ -18,7 +18,8 @@
 
 ## Enhancements
 
-- [ ] SEO & Sitemap
+- [x] [SEO](https://github.com/garmeeh/next-seo/blob/master/APP_DIRECTORY.md)
+- [ ] Sitemap
 - [ ] [Forms](https://react-hook-form.com/) - _[using Zod](https://www.austinshelby.com/blog/build-a-react-form-with-react-hook-form-and-zod)_
 - [ ] [Validation & Type Inference](https://zod.dev/)
 - [ ] [Analytics](https://plausible.io/) - _dig deeper here, iterate_
