@@ -19,12 +19,13 @@
 ## Enhancements
 
 - [x] [SEO](https://github.com/garmeeh/next-seo/blob/master/APP_DIRECTORY.md)
-- [ ] Sitemap
-- [ ] [Forms](https://react-hook-form.com/) - _[using Zod](https://www.austinshelby.com/blog/build-a-react-form-with-react-hook-form-and-zod)_
+- [x] [Sitemap](https://github.com/iamvishnusankar/next-sitemap)
+- [ ] [Forms](https://react-hook-form.com/) + _[validation with Zod](https://www.austinshelby.com/blog/build-a-react-form-with-react-hook-form-and-zod)_
 - [ ] [Validation & Type Inference](https://zod.dev/)
 - [ ] [Analytics](https://plausible.io/) - _dig deeper here, iterate_
-- [ ] Monitoring
 - [ ] [Animation](https://www.framer.com/motion/)
+- [ ] [Logging](https://getpino.io/#/)
+- [ ] Monitoring
 - [ ] Testing
 
 ## Content Management
