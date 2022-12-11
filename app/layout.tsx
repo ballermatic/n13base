@@ -1,7 +1,7 @@
 import { Inter_Tight } from '@next/font/google';
 import './globals.css';
-import Footer from './components/footer';
-import Masthead from './components/masthead';
+import Footer from '../components/footer';
+import Masthead from '../components/masthead';
 import { NextSeo } from 'next-seo';
 
 // Global font family specified here rather than globals.css but font weight specified in globals.css

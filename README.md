@@ -20,7 +20,7 @@
 
 - [x] [SEO](https://github.com/garmeeh/next-seo/blob/master/APP_DIRECTORY.md)
 - [x] [Sitemap](https://github.com/iamvishnusankar/next-sitemap)
-- [ ] [Forms](https://react-hook-form.com/) + _[validation with Zod](https://www.austinshelby.com/blog/build-a-react-form-with-react-hook-form-and-zod)_
+- [x] [Forms](https://react-hook-form.com/) + _[validation with Zod](https://www.austinshelby.com/blog/build-a-react-form-with-react-hook-form-and-zod)_
 - [ ] [Validation & Type Inference](https://zod.dev/)
 - [ ] [Analytics](https://plausible.io/) - _dig deeper here, iterate_
 - [ ] [Animation](https://www.framer.com/motion/)
@@ -36,9 +36,3 @@ _Using Sanity_
 - [ ] [Additional reference](https://www.sanity.io/guides/sanity-nextjs-tailwindcss#5f3dfa6b9d2c)
 - [ ] [Sanity Image](https://www.sanity.io/plugins/next-sanity-image)
 - [ ] [Pagebuilder](https://www.sanity.io/guides/how-to-use-structured-content-for-page-building)
-
-## Monthly Costs
-
-Vercel 20 - _eventually_
-
-Plausible 14

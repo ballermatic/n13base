@@ -101,7 +101,7 @@
     /**
      * Corners
      */
-    --round: 50%;
+    /* --round: 50%;  */
     --corner-xs: 1.5px;
     --corner-sm: 3px;
     --corner-md: 6px;
