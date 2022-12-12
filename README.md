@@ -22,17 +22,9 @@
 - [x] [Sitemap](https://github.com/iamvishnusankar/next-sitemap)
 - [x] [Forms](https://react-hook-form.com/) + _[validation with Zod](https://www.austinshelby.com/blog/build-a-react-form-with-react-hook-form-and-zod)_
 - [ ] [Validation & Type Inference](https://zod.dev/)
-- [ ] [Analytics](https://plausible.io/) - _dig deeper here, iterate_
-- [ ] [Animation](https://www.framer.com/motion/)
+- [ ] [Analytics](https://plausible.io/) - _TBD_
+- [ ] [Animation](https://www.framer.com/motion/) - _TBD_
 - [ ] [Logging](https://getpino.io/#/)
 - [ ] Monitoring
 - [ ] Testing
 
-## Content Management
-
-_Using Sanity_
-
-- [ ] [Built-in authoring](https://github.com/sanity-io/next-sanity)
-- [ ] [Additional reference](https://www.sanity.io/guides/sanity-nextjs-tailwindcss#5f3dfa6b9d2c)
-- [ ] [Sanity Image](https://www.sanity.io/plugins/next-sanity-image)
-- [ ] [Pagebuilder](https://www.sanity.io/guides/how-to-use-structured-content-for-page-building)
