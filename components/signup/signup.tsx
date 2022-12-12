@@ -2,8 +2,9 @@
 'use client';
 
 import { z } from 'zod';
-import { Form, useForm } from '../components/form/form';
-import { Input } from '../components/form/input';
+import { Form, useForm } from '../form/form';
+import { Input } from '../form/input';
+import styles from './signup.module.css';
 
 // Declare validation and shape of form
 // Zod takes care of email validation, it also supports custom regex
@@ -27,9 +28,9 @@ export function SignUpForm() {
   renderCount++;
 
   return (
-    <div>
+    <div className={styles.wrapper}>
       {/* provide the form and onSubmit handler to form component */}
-      <Form form={form} onSubmit={(values) => console.log(values)}>
+      <Form form={form} onSubmit={(values) => console.log(values)} className={styles.form}>
         <Input label='Your first name' type='text' {...form.register('firstName')} />
         <Input label='Choose username' type='text' {...form.register('username')} />
         <Input label='Email' type='email' {...form.register('email')} />

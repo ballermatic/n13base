@@ -54,6 +54,12 @@
   blockquote {
     overflow-wrap: break-word;
   }
+  /* Added by moi, may move later */
+  fieldset {
+    padding: 0;
+    margin: 0;
+    border: none;
+  }
   #root,
   #__next {
     isolation: isolate;
