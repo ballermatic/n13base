@@ -1,5 +1,7 @@
 # Base set up for future sites and apps
 
+### [See on Vercel](https://n13base.vercel.app/)
+
 ## Next 13 Typescript
 
 - [x] [app directory](https://beta.nextjs.org/docs/upgrade-guide#next-steps) _- beta_
@@ -13,7 +15,6 @@
 - [x] [Minimalist vanilla CSS & modules](https://www.smashingmagazine.com/2021/07/global-local-styling-nextjs/)
 - [x] **globals:** @layer reset, variables ([utopia](https://utopia.fyi/), colors), layout (grid, vertical rhythm), utilities (dark mode)
 - [ ] [Open Props](https://open-props.style/), maybe
-- [ ] [Attribute selectors are awesome](https://elisehe.in/2022/10/16/attribute-selectors)
 - [ ] [PostCSS JIT Props](https://github.com/GoogleChromeLabs/postcss-jit-props)
 
 ## Enhancements
@@ -22,9 +23,3 @@
 - [x] [Sitemap](https://github.com/iamvishnusankar/next-sitemap)
 - [x] [Forms](https://react-hook-form.com/) + _[validation with Zod](https://www.austinshelby.com/blog/build-a-react-form-with-react-hook-form-and-zod)_
 - [ ] [Validation & Type Inference](https://zod.dev/)
-- [ ] [Analytics](https://plausible.io/) - _TBD_
-- [ ] [Animation](https://www.framer.com/motion/) - _TBD_
-- [ ] [Logging](https://getpino.io/#/)
-- [ ] Monitoring
-- [ ] Testing
-

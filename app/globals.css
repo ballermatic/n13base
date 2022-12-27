@@ -81,6 +81,11 @@
     --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono',
       'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
     /**
+    * Media query sizes - use ems
+    * https://polypane.app/blog/the-complete-guide-to-css-media-queries/
+    */
+
+    /**
      * Font sizes
      */
     /* @link https://utopia.fyi/type/calculator?c=320,18,1.2,1920,21,1.414,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
