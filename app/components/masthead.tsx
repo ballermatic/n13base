@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Logo } from './logo';
+import Nav from './nav';
 
 export default function Masthead() {
   return (
@@ -7,9 +8,7 @@ export default function Masthead() {
       <Link href='/'>
         <Logo />
       </Link>
-      <nav>
-        <Link href='/about'>About</Link>
-      </nav>
+      <Nav />
     </header>
   );
 }
