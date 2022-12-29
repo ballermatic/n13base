@@ -68,23 +68,13 @@
 
 /*
    Variables
-   Fluid rhythm by utopia.fyi, colors by moi
+   Fluid rhythm by utopia.fyi, colors hand selected
    ========================================================================== */
 @layer variables {
   :root {
     /**
-     * Font fallback defaults
+     * Fonts - see app/utils/fonts.ts for custom fonts
      */
-    --font-sans: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
-      Helvetica Neue, sans-serif;
-    /* --font-default-serif: ; */
-    --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono',
-      'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
-    /**
-    * Media query sizes - use ems
-    * https://polypane.app/blog/the-complete-guide-to-css-media-queries/
-    */
-
     /**
      * Font sizes
      */
@@ -109,34 +99,32 @@
     --space-xl: clamp(3.38rem, calc(3.17rem + 1.02vw), 3.94rem);
     --space-xxl: clamp(4.5rem, calc(4.23rem + 1.36vw), 5.25rem);
     --space-xxxl: clamp(6.75rem, calc(6.34rem + 2.05vw), 7.88rem);
-    /**
-     * Corners
-     */
-    /* --round: 50%;  */
+    /* Corners */
     --corner-xs: 1.5px;
     --corner-sm: 3px;
     --corner-md: 6px;
     /**
-     * Color
+     * Color - TBD
      */
+    --dark: #010018;
+    --light: #efefef;
   }
 }
 
 /*
    Layout
    ========================================================================== */
+/**
+  * Media queries use ems https://polypane.app/blog/the-complete-guide-to-css-media-queries/
+  */
 @layer layout {
-  body {
-    margin: 0 auto;
-    max-width: 75ch;
-  }
 }
 
 /*
    Theme
    ========================================================================== */
 @layer theme {
-  /* Fonts */
+  /* Fonts #TODO: line height, letter spacing per faces chosen */
   body {
     font-size: var(--font-size-base);
     font-weight: 300;
@@ -165,6 +153,7 @@
   h3,
   h4 {
     font-weight: 650;
+    /* Only works with variable font */
   }
   pre {
     font-family: var(--font-mono);
@@ -175,14 +164,14 @@
    Utilities
    ========================================================================== */
 
-/* @layer utilities {
+@layer utilities {
   @media (prefers-color-scheme: dark) {
     html {
       color-scheme: dark;
     }
     body {
-      color: white;
-      background: black;
+      color: var(--light);
+      background: var(--dark);
     }
   }
-} */
+}
