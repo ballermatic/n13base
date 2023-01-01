@@ -13,9 +13,7 @@
 ## Styling
 
 - [x] [Minimalist vanilla CSS & modules](https://www.smashingmagazine.com/2021/07/global-local-styling-nextjs/)
-- [x] **globals:** @layer reset, variables ([utopia](https://utopia.fyi/), colors), layout (grid, vertical rhythm), utilities (dark mode)
-- [ ] [Open Props](https://open-props.style/), maybe
-- [ ] [PostCSS JIT Props](https://github.com/GoogleChromeLabs/postcss-jit-props)
+- [x] **globals:** @layer [reset](https://css-tricks.com/notes-on-josh-comeaus-custom-css-reset/), variables ([utopia](https://utopia.fyi/), colors), utilities (dark mode)
 
 ## Enhancements
 
