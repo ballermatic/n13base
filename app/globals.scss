@@ -73,9 +73,6 @@
 @layer variables {
   :root {
     /**
-     * Fonts - see app/utils/fonts.ts for custom fonts
-     */
-    /**
      * Font sizes
      */
     /* @link https://utopia.fyi/type/calculator?c=320,18,1.2,1920,21,1.414,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
@@ -122,19 +119,23 @@
 
 /*
    Theme
+   Fonts - see app/utils/fonts.ts for web or local fonts
+   Fonts - #TODO line height, letter spacing per faces chosen
    ========================================================================== */
 @layer theme {
-  /* Fonts #TODO: line height, letter spacing per faces chosen */
   body {
     font-size: var(--font-size-base);
-    font-weight: 300;
+    font-weight: 330;
   }
   .exa {
     font-size: var(--font-size-xxxl);
+    font-weight: 867;
+    letter-spacing: -0.05em;
   }
   h1,
   .peta {
     font-size: var(--font-size-xxl);
+    letter-spacing: -0.03em;
   }
   h2,
   .tera {
@@ -152,8 +153,7 @@
   h2,
   h3,
   h4 {
-    font-weight: 650;
-    /* Only works with variable font */
+    font-weight: 750;
   }
   pre {
     font-family: var(--font-mono);

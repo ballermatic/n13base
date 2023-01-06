@@ -1,8 +1,5 @@
-import { Inter, Roboto_Flex } from '@next/font/google';
-
-// Font families specified here
+// Font families specified here, add more as desired
 // app/globals.css controls font styles such as weight/axis/slant
+import { Inter } from '@next/font/google';
 
 export const globalFont = Inter({ subsets: ['latin'], variable: '--font-global' });
-
-export const headingFont = Roboto_Flex({ subsets: ['latin'], variable: '--font-heading' });

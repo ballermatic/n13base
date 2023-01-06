@@ -1,4 +1,4 @@
-import './globals.css';
+import './globals.scss';
 import Footer from './components/footer';
 import Masthead from './components/masthead';
 import { NextSeo } from 'next-seo';
