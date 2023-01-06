@@ -1,6 +1,6 @@
-# Base set up for future sites and apps
+# n13base
 
-### [See on Vercel](https://n13base.vercel.app/)
+A basic starter for sites and apps. [See it on Vercel](https://n13base.vercel.app/), yes it IS basic.
 
 ## Next 13 Typescript
 

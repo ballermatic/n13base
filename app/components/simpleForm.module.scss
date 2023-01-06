@@ -1,0 +1,10 @@
+.simpleForm {
+  border: 1px solid rgb(128, 128, 128);
+  display: inline-block;
+  padding: 1rem;
+  & label,
+  & button {
+    display: block;
+    margin: 1rem 0;
+  }
+}

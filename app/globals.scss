@@ -104,7 +104,7 @@
      * Color - TBD
      */
     --dark: #010018;
-    --light: #efefef;
+    --light: #f2f2f2;
   }
 }
 
@@ -115,6 +115,9 @@
   * Media queries use ems https://polypane.app/blog/the-complete-guide-to-css-media-queries/
   */
 @layer layout {
+  .container {
+    padding: 1rem;
+  }
 }
 
 /*
@@ -131,15 +134,18 @@
     font-size: var(--font-size-xxxl);
     font-weight: 867;
     letter-spacing: -0.05em;
+    line-height: 0.85;
   }
   h1,
   .peta {
     font-size: var(--font-size-xxl);
     letter-spacing: -0.03em;
+    line-height: 0.9;
   }
   h2,
   .tera {
     font-size: var(--font-size-xl);
+    line-height: 1;
   }
   h3,
   .giga {
@@ -155,8 +161,21 @@
   h4 {
     font-weight: 750;
   }
+  p {
+    margin-bottom: 1rem;
+  }
   pre {
     font-family: var(--font-mono);
+  }
+  .logo {
+    fill: var(--dark);
+  }
+  button {
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    padding: 0.2rem 0.6rem;
+    text-transform: uppercase;
   }
 }
 
@@ -172,6 +191,9 @@
     body {
       color: var(--light);
       background: var(--dark);
+    }
+    .logo {
+      fill: var(--light);
     }
   }
 }

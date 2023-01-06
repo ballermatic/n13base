@@ -1,6 +1,6 @@
 import './globals.scss';
-import Footer from './components/footer';
-import Masthead from './components/masthead';
+import Footer from './components/Footer';
+import Masthead from './components/Masthead';
 import { NextSeo } from 'next-seo';
 import { globalFont } from './utils/fonts';
 

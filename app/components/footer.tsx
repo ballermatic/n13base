@@ -1,8 +1,9 @@
+import styles from './footer.module.scss';
+
 export default function Footer() {
   return (
-    <footer>
-      <h3>Footer</h3>
-      <nav>Social, CTA, etc</nav>
+    <footer className={styles.footer}>
+      <h4>Footer</h4>
     </footer>
   );
 }

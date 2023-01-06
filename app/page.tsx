@@ -1,11 +1,10 @@
-import { SimpleForm } from './components/simple-form';
+import { SimpleForm } from './components/SimpleForm';
 
 export default function HomePage() {
   return (
-    <div>
-      <h1 className='exa'>Home page</h1>
-      <hr />
-      <p>A wild SimpleForm appears!</p>
+    <div className='container'>
+      <h1 className='exa'>This is n13base</h1>
+      <p>An extremely basic starter using Next.js 13, the app directory, Typescript, and some other goodies.</p>
       <SimpleForm />
     </div>
   );

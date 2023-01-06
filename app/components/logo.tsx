@@ -1,7 +1,7 @@
 export const Logo = () => {
   return (
-    <svg width='60' height='60' viewBox='0 0 60 60' fill='none' xmlns='http://www.w3.org/2000/svg'>
-      <g fill='#000'>
+    <svg className='logo' width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'>
+      <g>
         <path d='M22.8,46.89c-1.44,0-2.48,1.12-2.48,2.64s1.04,2.64,2.48,2.64c1.44,0,2.48-1.12,2.48-2.64S24.24,46.89,22.8,46.89z' />
         <path
           d='M0,0v60h60V0H0z M45,24.01c0,2.28-0.52,4.44-1.44,6.37L31.26,9.07C38.95,9.71,45,16.15,45,24.01z M15.76,53.54h-6.4v-8h1.6
