@@ -116,7 +116,8 @@
   */
 @layer layout {
   .container {
-    padding: 1rem;
+    max-width: clamp(360px, 80ch, 1200px); // totally(semi) arbitrary
+    padding: var(--space-xl);
   }
 }
 
@@ -171,11 +172,16 @@
     fill: var(--dark);
   }
   button {
+    display: block;
     font-size: var(--font-size-sm);
     font-weight: 500;
     letter-spacing: 0.08em;
+    margin-top: var(--space-base);
     padding: 0.2rem 0.6rem;
     text-transform: uppercase;
+  }
+  [role='doc-subtitle'] {
+    font-size: var(--font-size-sm);
   }
 }
 
